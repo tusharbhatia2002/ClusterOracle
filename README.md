@@ -1,1 +1,36 @@
-# ClusterOracle
+ClusterOracle: Anomaly Detection and Forecasting for Kubernetes Clusters
+ClusterOracle is an ML-based system designed to identify CPU usage anomalies and forecast future values in Kubernetes clusters. It combines the power of machine learning, natural language processing, and data visualization to provide users with valuable insights and actionable information.
+
+Features
+<h4>Anomaly Detection:</h4> ClusterOracle employs advanced machine learning algorithms to detect anomalies in CPU usage data, enabling proactive identification of potential issues.<br> <h4>Forecasting:</h4> Leveraging trained LSTM models, ClusterOracle predicts future CPU usage values, allowing users to anticipate and plan for upcoming resource requirements.<br> <h4>AI-Generated Summaries:</h4> Utilizing LLM-based techniques, ClusterOracle generates concise and informative summaries of the detected anomalies and forecasted trends, making it easier for users to understand and act upon the insights.<br> <h4>User-Friendly Interface:</h4> The system features an intuitive and visually appealing user interface, enabling users to easily navigate and interact with the data and insights.<br> <h4>Real-Time Monitoring:</h4> ClusterOracle provides real-time monitoring capabilities, allowing users to stay up-to-date with the latest CPU usage patterns and anomalies in their Kubernetes clusters.<br>
+Technologies Used
+Python
+TensorFlow
+Flask
+Ollama
+Mistral 7B
+Next.js
+Getting Started
+To run ClusterOracle locally, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/your-username/ClusterOracle.git
+Install the required dependencies:
+
+cd ClusterOracle
+pip install -r requirements.txt
+Set up the necessary environment variables:
+
+export FLASK_APP=app.py
+export FLASK_ENV=development
+Run the Flask application:
+
+flask run
+Open your web browser and navigate to http://localhost:5000 to access ClusterOracle.
+
+Usage
+Upload your Kubernetes cluster CPU usage data in the supported format.
+ClusterOracle will process the data and display the detected anomalies and forecasted values.
+Explore the AI-generated summaries to gain insights into the anomalies and trends.
+Use the real-time monitoring feature to stay updated with the latest CPU usage patterns.
