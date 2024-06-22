@@ -13,7 +13,7 @@ Next.js<br>
 MySQL<br>
 
 <h4>Output</h4>
-
+<img width="1705" alt="Landing Page" src="Screenshot 2024-04-26 at 6.48.58 PM.png"><br>
 
 
 
